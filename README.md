@@ -2,7 +2,7 @@
 ## 1.Hacking key through Language Statistics
 Here, we illustrate decryption of cipher message through general English language statistics. We analyze language statistical properties of message and contrast it with general statistical properties of English. This will help you understand vulnerabilities in cipher messages or say encryption algorithms e.g. our cipher text is encrypted from substitution cipher which has very large key space of order 29! which in raw checking all keys will take most fastest computer today 280 billion years i.e. 20,000 times current age of universe.
 
-The substitution key is derived through detailed frequency analysis and linguistic pattern recognition of the English language. Note I have written deduced alphabets as capital e.g. for p is deduced to e, p → E. Here are the logical steps used to infer the characters:
+The substitution key is derived through detailed frequency analysis and linguistic pattern recognition of the English language. Note I have written deduced alphabets as capital e.g. for p is deduced to e, p → E and also after deducing I replace every p with E in cipher message.  Here are the logical steps used to infer the characters:
 1. Space is most frequently used, so in cipher text is character c i.e. c → space
 2. 1-Letter Words: The general English pattern for 1-letter words consists of I and a. In the ciphertext, the characters b and m appear as isolated 1-letter words. Since b appears more frequently than m throughout the text, we deduce that b → A and m → I.
 3. Most Frequent Characters: After the space character, e and t are most frequent characters in the English language, so here are p and d in ciphertext, and presence of words Id and Ad allowing us to deduce d → T and p → E.
